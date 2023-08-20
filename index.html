@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark bg-gradient border-bottom border-body" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <img src="https://picsum.photos/id/233/600/400" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-5">
+                    <h1 class="mt-5">Tagline</h1>
+                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi non dolorum sint
+                        dolorem.</p>
+                    <button type="button" class="btn btn-primary mt-3">Call to Action</button>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col">
+                    <div class="bg-secondary text-white my-5 py-3 card text-center">
+                        <div class="card-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, fugiat.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="card-group">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/232/600/400" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div class="">
+                                <a href="">
+                                    <button type="button" class="btn btn-primary">Read more</button>
+                                </a>
+                            </div>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/id/234/600/400" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <div class="">
+                                <a href="">
+                                    <button type="button" class="btn btn-primary">Read more</button>
+                                </a>
+                            </div>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/id/235/600/400" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                            <div class="">
+                                <a href="">
+                                    <button type="button" class="btn btn-primary">Read more</button>
+                                </a>
+                            </div>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <h2>Get in touch</h2>
+                <p class="lead">Questions? Do not hesitate to contact us</p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form action="">
+
+                        <div class="form-floating my-4">
+                            <input type="email" id="email" placeholder="my@email.com" class="form-control" />
+                            <label for="email" class="form-label">Email:</label>
+                        </div>
+                        <div class="form-floating my-4">
+                            <input type="name" id="name" placeholder="e.g. Mahid" class="form-control" />
+                            <label for="name" class="form-label">Name:</label>
+                        </div>
+                        <label for="subject" class="form=label">Subject</label>
+                        <select name="subject" id="subject" class="form-select">
+                            <option value="pricing">Pricing</option>
+                            <option value="technical" selected>Technical question</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                        <div class="form-floating my-4">
+                            <textarea name="query" id="query" style="height: 150px" class="form-control"
+                                placeholder="Write a message"></textarea>
+
+                            <label for="query">Write a message</label>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Send!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="text-center text-lg-start bg-dark bg-gradient text-muted">
+
+        <section class="d-flex text-light justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+
+            <div class="justify-content-center">
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="text-light">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Company name
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Angular</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">React</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.js"></script>
+</body>
+
+</html>
